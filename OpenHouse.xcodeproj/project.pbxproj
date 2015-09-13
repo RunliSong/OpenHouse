@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198FFB31193304FC00A91E89 /* BuildingAnnotationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198FFB30193304FC00A91E89 /* BuildingAnnotationMapViewController.m */; };
+		198FFB3A19331B7E00A91E89 /* BuildingWebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198FFB3819331B7E00A91E89 /* BuildingWebsiteViewController.m */; };
+		CE359F3D192475D50025E125 /* Button-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CE359F3C192475D50025E125 /* Button-Normal.png */; };
+		CE359F51192494690025E125 /* Mission.html in Resources */ = {isa = PBXBuildFile; fileRef = CE359F4D192494690025E125 /* Mission.html */; };
+		CE359F52192494690025E125 /* Overview.html in Resources */ = {isa = PBXBuildFile; fileRef = CE359F4E192494690025E125 /* Overview.html */; };
+		CE359F53192494690025E125 /* Program.html in Resources */ = {isa = PBXBuildFile; fileRef = CE359F4F192494690025E125 /* Program.html */; };
+		CE359F54192494690025E125 /* Volunteers.html in Resources */ = {isa = PBXBuildFile; fileRef = CE359F50192494690025E125 /* Volunteers.html */; };
+		CE359F5A192498B90025E125 /* images-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE359F55192498B90025E125 /* images-3.jpg */; };
+		CE359F5B192498B90025E125 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE359F56192498B90025E125 /* images.jpg */; };
+		CE359F5C192498B90025E125 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE359F57192498B90025E125 /* imgres.jpg */; };
+		CE359F5D192498B90025E125 /* images-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE359F58192498B90025E125 /* images-1.jpg */; };
+		CE359F5E192498B90025E125 /* images-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE359F59192498B90025E125 /* images-2.jpg */; };
+		CE359F6019249E0C0025E125 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE359F5F19249E0C0025E125 /* MessageUI.framework */; };
+		CE4AC95D1920B1FE0030E13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AC95C1920B1FE0030E13D /* Foundation.framework */; };
+		CE4AC95F1920B1FE0030E13D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AC95E1920B1FE0030E13D /* CoreGraphics.framework */; };
+		CE4AC9611920B1FE0030E13D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AC9601920B1FE0030E13D /* UIKit.framework */; };
+		CE4AC9671920B1FE0030E13D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4AC9651920B1FE0030E13D /* InfoPlist.strings */; };
+		CE4AC9691920B1FE0030E13D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4AC9681920B1FE0030E13D /* main.m */; };
+		CE4AC96D1920B1FE0030E13D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4AC96C1920B1FE0030E13D /* AppDelegate.m */; };
+		CE4AC9701920B1FE0030E13D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4AC96E1920B1FE0030E13D /* Main_iPhone.storyboard */; };
+		CE4AC9761920B1FE0030E13D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4AC9751920B1FE0030E13D /* ViewController.m */; };
+		CE4AC9781920B1FE0030E13D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4AC9771920B1FE0030E13D /* Images.xcassets */; };
+		CE4AC97F1920B1FE0030E13D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AC97E1920B1FE0030E13D /* XCTest.framework */; };
+		CE4AC9801920B1FE0030E13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AC95C1920B1FE0030E13D /* Foundation.framework */; };
+		CE4AC9811920B1FF0030E13D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4AC9601920B1FE0030E13D /* UIKit.framework */; };
+		CE4AC9891920B1FF0030E13D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4AC9871920B1FF0030E13D /* InfoPlist.strings */; };
+		CE4AC98B1920B1FF0030E13D /* OpenHouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4AC98A1920B1FF0030E13D /* OpenHouseTests.m */; };
+		CE7237A31923097D004055C2 /* bs1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7237881923097D004055C2 /* bs1.png */; };
+		CE7237A41923097D004055C2 /* bs10.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7237891923097D004055C2 /* bs10.png */; };
+		CE7237A51923097D004055C2 /* bs2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72378A1923097D004055C2 /* bs2.png */; };
+		CE7237A61923097D004055C2 /* bs3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72378B1923097D004055C2 /* bs3.png */; };
+		CE7237A71923097D004055C2 /* bs4.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72378C1923097D004055C2 /* bs4.png */; };
+		CE7237A81923097D004055C2 /* bs5.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72378D1923097D004055C2 /* bs5.png */; };
+		CE7237A91923097D004055C2 /* bs6.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72378E1923097D004055C2 /* bs6.png */; };
+		CE7237AA1923097D004055C2 /* bs7.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72378F1923097D004055C2 /* bs7.png */; };
+		CE7237AB1923097D004055C2 /* bs8.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7237901923097D004055C2 /* bs8.png */; };
+		CE7237AC1923097D004055C2 /* bs9.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7237911923097D004055C2 /* bs9.png */; };
+		CE7237AD1923097D004055C2 /* building1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7237921923097D004055C2 /* building1.jpg */; };
+		CE7237AE1923097D004055C2 /* building10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7237931923097D004055C2 /* building10.jpg */; };
+		CE7237AF1923097D004055C2 /* building2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7237941923097D004055C2 /* building2.jpg */; };
+		CE7237B01923097D004055C2 /* building3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7237951923097D004055C2 /* building3.jpg */; };
+		CE7237B11923097D004055C2 /* building4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7237961923097D004055C2 /* building4.jpg */; };
+		CE7237B21923097D004055C2 /* building5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7237971923097D004055C2 /* building5.jpg */; };
+		CE7237B31923097D004055C2 /* building6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7237981923097D004055C2 /* building6.jpg */; };
+		CE7237B41923097D004055C2 /* building7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7237991923097D004055C2 /* building7.jpg */; };
+		CE7237B51923097D004055C2 /* building8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE72379A1923097D004055C2 /* building8.jpg */; };
+		CE7237B61923097D004055C2 /* building9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE72379B1923097D004055C2 /* building9.jpg */; };
+		CE7237B71923097D004055C2 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72379C1923097D004055C2 /* facebook.png */; };
+		CE7237B81923097D004055C2 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72379D1923097D004055C2 /* instagram.png */; };
+		CE7237B91923097D004055C2 /* landspace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE72379E1923097D004055C2 /* landspace.jpg */; };
+		CE7237BA1923097D004055C2 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = CE72379F1923097D004055C2 /* mail.png */; };
+		CE7237BB1923097D004055C2 /* openhousegeelonglogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7237A01923097D004055C2 /* openhousegeelonglogo.jpg */; };
+		CE7237BC1923097D004055C2 /* pinterest.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7237A11923097D004055C2 /* pinterest.png */; };
+		CE7237BD1923097D004055C2 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7237A21923097D004055C2 /* twitter.png */; };
+		CE7237CC19231857004055C2 /* FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7237CB19231857004055C2 /* FViewController.m */; };
+		CE7237CF192318C7004055C2 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7237CE192318C7004055C2 /* CViewController.m */; };
+		CE7237D119233193004055C2 /* logo5deakin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7237D019233193004055C2 /* logo5deakin.png */; };
+		CE7237D919233A9F004055C2 /* OHGbanner5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7237D819233A9F004055C2 /* OHGbanner5.jpg */; };
+		CE7A10A9192C71AE006024EC /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A1084192C71AD006024EC /* Building.m */; };
+		CE7A10AA192C71AE006024EC /* BuildingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A1086192C71AD006024EC /* BuildingCell.m */; };
+		CE7A10AC192C71AE006024EC /* BuildingListViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A108A192C71AD006024EC /* BuildingListViewControler.m */; };
+		CE7A10AD192C71AE006024EC /* Buildings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A108C192C71AD006024EC /* Buildings.m */; };
+		CE7A10AE192C71AE006024EC /* Barwon Water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A108F192C71AD006024EC /* Barwon Water.jpg */; };
+		CE7A10AF192C71AE006024EC /* Barwon Water_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A1090192C71AD006024EC /* Barwon Water_small.png */; };
+		CE7A10B0192C71AE006024EC /* City of Greater Geelong Offices.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A1091192C71AD006024EC /* City of Greater Geelong Offices.jpg */; };
+		CE7A10B1192C71AE006024EC /* City of Greater Geelong Offices_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A1092192C71AD006024EC /* City of Greater Geelong Offices_small.png */; };
+		CE7A10B2192C71AE006024EC /* Deakin University.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A1093192C71AD006024EC /* Deakin University.jpg */; };
+		CE7A10B3192C71AE006024EC /* Deakin University_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A1094192C71AD006024EC /* Deakin University_small.png */; };
+		CE7A10B4192C71AE006024EC /* Geelong City Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A1095192C71AD006024EC /* Geelong City Hall.jpg */; };
+		CE7A10B5192C71AE006024EC /* Geelong City Hall_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A1096192C71AD006024EC /* Geelong City Hall_small.png */; };
+		CE7A10B6192C71AE006024EC /* Geelong Maritime Museum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A1097192C71AD006024EC /* Geelong Maritime Museum.jpg */; };
+		CE7A10B7192C71AE006024EC /* Geelong Maritime Museum_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A1098192C71AD006024EC /* Geelong Maritime Museum_small.png */; };
+		CE7A10B8192C71AE006024EC /* National Wool Museum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A1099192C71AD006024EC /* National Wool Museum.jpg */; };
+		CE7A10B9192C71AE006024EC /* National Wool Museum_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A109A192C71AD006024EC /* National Wool Museum_small.png */; };
+		CE7A10BA192C71AE006024EC /* Osborne House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A109B192C71AD006024EC /* Osborne House.jpg */; };
+		CE7A10BB192C71AE006024EC /* Osborne House_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A109C192C71AD006024EC /* Osborne House_small.png */; };
+		CE7A10BC192C71AE006024EC /* Peace Memorial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A109D192C71AD006024EC /* Peace Memorial.jpg */; };
+		CE7A10BD192C71AE006024EC /* The Geelong Magistrates Courts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A109E192C71AD006024EC /* The Geelong Magistrates Courts.jpg */; };
+		CE7A10BE192C71AE006024EC /* The Geelong Magistrates Courts_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A109F192C71AD006024EC /* The Geelong Magistrates Courts_small.png */; };
+		CE7A10BF192C71AE006024EC /* The Gordon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A10A0192C71AD006024EC /* The Gordon.jpg */; };
+		CE7A10C0192C71AE006024EC /* The Gordon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A10A1192C71AD006024EC /* The Gordon_small.png */; };
+		CE7A10C1192C71AE006024EC /* Transport Accident Commission (TAC).jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A10A2192C71AD006024EC /* Transport Accident Commission (TAC).jpg */; };
+		CE7A10C2192C71AE006024EC /* Transport Accident Commission (TAC)_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A10A3192C71AD006024EC /* Transport Accident Commission (TAC)_small.png */; };
+		CE7A10C3192C71AE006024EC /* Vietnam Veterans Association.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7A10A4192C71AD006024EC /* Vietnam Veterans Association.jpg */; };
+		CE7A10C4192C71AE006024EC /* Vietnam Veterans Association_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A10A5192C71AD006024EC /* Vietnam Veterans Association_small.png */; };
+		CE7A10C5192C71AE006024EC /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A10A7192C71AD006024EC /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE7A10C6192C71AE006024EC /* testBuildingInformation.xml in Resources */ = {isa = PBXBuildFile; fileRef = CE7A10A8192C71AD006024EC /* testBuildingInformation.xml */; };
+		CE7A10C8192C71F8006024EC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7A10C7192C71F8006024EC /* libz.dylib */; };
+		CE7A10CA192C7204006024EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7A10C9192C7204006024EC /* MapKit.framework */; };
+		CE7A10CC192C720A006024EC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7A10CB192C720A006024EC /* CoreLocation.framework */; };
+		CE7A10D1192C7633006024EC /* Peace Memorial_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A10D0192C7633006024EC /* Peace Memorial_small.png */; };
+		CEA1F4621938432D00FB02D5 /* BuildingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1F4611938432D00FB02D5 /* BuildingDetailViewController.m */; };
+		CEA1F4651938433700FB02D5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA1F4641938433700FB02D5 /* MapViewController.m */; };
+		CEAD864C192DDC5800567461 /* button-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAD8648192DDC5800567461 /* button-1.jpg */; };
+		CEAD864D192DDC5800567461 /* buildbutton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAD8649192DDC5800567461 /* buildbutton.jpg */; };
+		CEAD864E192DDC5800567461 /* button3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAD864A192DDC5800567461 /* button3.jpg */; };
+		CEAD864F192DDC5800567461 /* button2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAD864B192DDC5800567461 /* button2.jpg */; };
+		CEAD8652192DDFEF00567461 /* redbutton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAD8650192DDFEF00567461 /* redbutton.jpg */; };
+		CEAD8653192DDFEF00567461 /* redbuttond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAD8651192DDFEF00567461 /* redbuttond.jpg */; };
+		CEAD8659192DE43F00567461 /* welcom-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEAD8658192DE43F00567461 /* welcom-1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE4AC9821920B1FF0030E13D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4AC9511920B1FE0030E13D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4AC9581920B1FE0030E13D;
+			remoteInfo = OpenHouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		198FFB2F193304FC00A91E89 /* BuildingAnnotationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingAnnotationMapViewController.h; sourceTree = "<group>"; };
+		198FFB30193304FC00A91E89 /* BuildingAnnotationMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingAnnotationMapViewController.m; sourceTree = "<group>"; };
+		198FFB3719331B7E00A91E89 /* BuildingWebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingWebsiteViewController.h; sourceTree = "<group>"; };
+		198FFB3819331B7E00A91E89 /* BuildingWebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingWebsiteViewController.m; sourceTree = "<group>"; };
+		CE359F3C192475D50025E125 /* Button-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Normal.png"; sourceTree = "<group>"; };
+		CE359F4D192494690025E125 /* Mission.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Mission.html; path = htmlFile/Mission.html; sourceTree = "<group>"; };
+		CE359F4E192494690025E125 /* Overview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Overview.html; path = htmlFile/Overview.html; sourceTree = "<group>"; };
+		CE359F4F192494690025E125 /* Program.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Program.html; path = htmlFile/Program.html; sourceTree = "<group>"; };
+		CE359F50192494690025E125 /* Volunteers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Volunteers.html; path = htmlFile/Volunteers.html; sourceTree = "<group>"; };
+		CE359F55192498B90025E125 /* images-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-3.jpg"; sourceTree = "<group>"; };
+		CE359F56192498B90025E125 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		CE359F57192498B90025E125 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
+		CE359F58192498B90025E125 /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpg"; sourceTree = "<group>"; };
+		CE359F59192498B90025E125 /* images-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpg"; sourceTree = "<group>"; };
+		CE359F5F19249E0C0025E125 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CE4AC9591920B1FE0030E13D /* OpenHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4AC95C1920B1FE0030E13D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE4AC95E1920B1FE0030E13D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE4AC9601920B1FE0030E13D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE4AC9641920B1FE0030E13D /* OpenHouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenHouse-Info.plist"; sourceTree = "<group>"; };
+		CE4AC9661920B1FE0030E13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE4AC9681920B1FE0030E13D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE4AC96A1920B1FE0030E13D /* OpenHouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenHouse-Prefix.pch"; sourceTree = "<group>"; };
+		CE4AC96B1920B1FE0030E13D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE4AC96C1920B1FE0030E13D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE4AC96F1920B1FE0030E13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CE4AC9741920B1FE0030E13D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE4AC9751920B1FE0030E13D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE4AC9771920B1FE0030E13D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE4AC97D1920B1FE0030E13D /* OpenHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4AC97E1920B1FE0030E13D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE4AC9861920B1FF0030E13D /* OpenHouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenHouseTests-Info.plist"; sourceTree = "<group>"; };
+		CE4AC9881920B1FF0030E13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE4AC98A1920B1FF0030E13D /* OpenHouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenHouseTests.m; sourceTree = "<group>"; };
+		CE7237881923097D004055C2 /* bs1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs1.png; sourceTree = "<group>"; };
+		CE7237891923097D004055C2 /* bs10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs10.png; sourceTree = "<group>"; };
+		CE72378A1923097D004055C2 /* bs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs2.png; sourceTree = "<group>"; };
+		CE72378B1923097D004055C2 /* bs3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs3.png; sourceTree = "<group>"; };
+		CE72378C1923097D004055C2 /* bs4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs4.png; sourceTree = "<group>"; };
+		CE72378D1923097D004055C2 /* bs5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs5.png; sourceTree = "<group>"; };
+		CE72378E1923097D004055C2 /* bs6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs6.png; sourceTree = "<group>"; };
+		CE72378F1923097D004055C2 /* bs7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs7.png; sourceTree = "<group>"; };
+		CE7237901923097D004055C2 /* bs8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs8.png; sourceTree = "<group>"; };
+		CE7237911923097D004055C2 /* bs9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs9.png; sourceTree = "<group>"; };
+		CE7237921923097D004055C2 /* building1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building1.jpg; sourceTree = "<group>"; };
+		CE7237931923097D004055C2 /* building10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building10.jpg; sourceTree = "<group>"; };
+		CE7237941923097D004055C2 /* building2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building2.jpg; sourceTree = "<group>"; };
+		CE7237951923097D004055C2 /* building3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building3.jpg; sourceTree = "<group>"; };
+		CE7237961923097D004055C2 /* building4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building4.jpg; sourceTree = "<group>"; };
+		CE7237971923097D004055C2 /* building5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building5.jpg; sourceTree = "<group>"; };
+		CE7237981923097D004055C2 /* building6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building6.jpg; sourceTree = "<group>"; };
+		CE7237991923097D004055C2 /* building7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building7.jpg; sourceTree = "<group>"; };
+		CE72379A1923097D004055C2 /* building8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building8.jpg; sourceTree = "<group>"; };
+		CE72379B1923097D004055C2 /* building9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building9.jpg; sourceTree = "<group>"; };
+		CE72379C1923097D004055C2 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		CE72379D1923097D004055C2 /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		CE72379E1923097D004055C2 /* landspace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landspace.jpg; sourceTree = "<group>"; };
+		CE72379F1923097D004055C2 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		CE7237A01923097D004055C2 /* openhousegeelonglogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = openhousegeelonglogo.jpg; sourceTree = "<group>"; };
+		CE7237A11923097D004055C2 /* pinterest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinterest.png; sourceTree = "<group>"; };
+		CE7237A21923097D004055C2 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		CE7237CA19231857004055C2 /* FViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FViewController.h; sourceTree = "<group>"; };
+		CE7237CB19231857004055C2 /* FViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FViewController.m; sourceTree = "<group>"; };
+		CE7237CD192318C7004055C2 /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		CE7237CE192318C7004055C2 /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		CE7237D019233193004055C2 /* logo5deakin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo5deakin.png; sourceTree = "<group>"; };
+		CE7237D819233A9F004055C2 /* OHGbanner5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OHGbanner5.jpg; sourceTree = "<group>"; };
+		CE7A1083192C71AD006024EC /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		CE7A1084192C71AD006024EC /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
+		CE7A1085192C71AD006024EC /* BuildingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingCell.h; sourceTree = "<group>"; };
+		CE7A1086192C71AD006024EC /* BuildingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingCell.m; sourceTree = "<group>"; };
+		CE7A1089192C71AD006024EC /* BuildingListViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingListViewControler.h; sourceTree = "<group>"; };
+		CE7A108A192C71AD006024EC /* BuildingListViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingListViewControler.m; sourceTree = "<group>"; };
+		CE7A108B192C71AD006024EC /* Buildings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buildings.h; sourceTree = "<group>"; };
+		CE7A108C192C71AD006024EC /* Buildings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Buildings.m; sourceTree = "<group>"; };
+		CE7A108D192C71AD006024EC /* FindPathNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindPathNavigationViewController.h; sourceTree = "<group>"; };
+		CE7A108F192C71AD006024EC /* Barwon Water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Barwon Water.jpg"; sourceTree = "<group>"; };
+		CE7A1090192C71AD006024EC /* Barwon Water_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Barwon Water_small.png"; sourceTree = "<group>"; };
+		CE7A1091192C71AD006024EC /* City of Greater Geelong Offices.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "City of Greater Geelong Offices.jpg"; sourceTree = "<group>"; };
+		CE7A1092192C71AD006024EC /* City of Greater Geelong Offices_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "City of Greater Geelong Offices_small.png"; sourceTree = "<group>"; };
+		CE7A1093192C71AD006024EC /* Deakin University.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Deakin University.jpg"; sourceTree = "<group>"; };
+		CE7A1094192C71AD006024EC /* Deakin University_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Deakin University_small.png"; sourceTree = "<group>"; };
+		CE7A1095192C71AD006024EC /* Geelong City Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Geelong City Hall.jpg"; sourceTree = "<group>"; };
+		CE7A1096192C71AD006024EC /* Geelong City Hall_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Geelong City Hall_small.png"; sourceTree = "<group>"; };
+		CE7A1097192C71AD006024EC /* Geelong Maritime Museum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Geelong Maritime Museum.jpg"; sourceTree = "<group>"; };
+		CE7A1098192C71AD006024EC /* Geelong Maritime Museum_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Geelong Maritime Museum_small.png"; sourceTree = "<group>"; };
+		CE7A1099192C71AD006024EC /* National Wool Museum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "National Wool Museum.jpg"; sourceTree = "<group>"; };
+		CE7A109A192C71AD006024EC /* National Wool Museum_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "National Wool Museum_small.png"; sourceTree = "<group>"; };
+		CE7A109B192C71AD006024EC /* Osborne House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Osborne House.jpg"; sourceTree = "<group>"; };
+		CE7A109C192C71AD006024EC /* Osborne House_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Osborne House_small.png"; sourceTree = "<group>"; };
+		CE7A109D192C71AD006024EC /* Peace Memorial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Peace Memorial.jpg"; sourceTree = "<group>"; };
+		CE7A109E192C71AD006024EC /* The Geelong Magistrates Courts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Geelong Magistrates Courts.jpg"; sourceTree = "<group>"; };
+		CE7A109F192C71AD006024EC /* The Geelong Magistrates Courts_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Geelong Magistrates Courts_small.png"; sourceTree = "<group>"; };
+		CE7A10A0192C71AD006024EC /* The Gordon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Gordon.jpg"; sourceTree = "<group>"; };
+		CE7A10A1192C71AD006024EC /* The Gordon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Gordon_small.png"; sourceTree = "<group>"; };
+		CE7A10A2192C71AD006024EC /* Transport Accident Commission (TAC).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Transport Accident Commission (TAC).jpg"; sourceTree = "<group>"; };
+		CE7A10A3192C71AD006024EC /* Transport Accident Commission (TAC)_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Transport Accident Commission (TAC)_small.png"; sourceTree = "<group>"; };
+		CE7A10A4192C71AD006024EC /* Vietnam Veterans Association.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vietnam Veterans Association.jpg"; sourceTree = "<group>"; };
+		CE7A10A5192C71AD006024EC /* Vietnam Veterans Association_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vietnam Veterans Association_small.png"; sourceTree = "<group>"; };
+		CE7A10A6192C71AD006024EC /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		CE7A10A7192C71AD006024EC /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		CE7A10A8192C71AD006024EC /* testBuildingInformation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testBuildingInformation.xml; sourceTree = "<group>"; };
+		CE7A10C7192C71F8006024EC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CE7A10C9192C7204006024EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE7A10CB192C720A006024EC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CE7A10D0192C7633006024EC /* Peace Memorial_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Peace Memorial_small.png"; sourceTree = "<group>"; };
+		CEA1F4601938432D00FB02D5 /* BuildingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingDetailViewController.h; sourceTree = "<group>"; };
+		CEA1F4611938432D00FB02D5 /* BuildingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingDetailViewController.m; sourceTree = "<group>"; };
+		CEA1F4631938433700FB02D5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		CEA1F4641938433700FB02D5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		CEAD8648192DDC5800567461 /* button-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "button-1.jpg"; sourceTree = "<group>"; };
+		CEAD8649192DDC5800567461 /* buildbutton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buildbutton.jpg; sourceTree = "<group>"; };
+		CEAD864A192DDC5800567461 /* button3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = button3.jpg; sourceTree = "<group>"; };
+		CEAD864B192DDC5800567461 /* button2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = button2.jpg; sourceTree = "<group>"; };
+		CEAD8650192DDFEF00567461 /* redbutton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redbutton.jpg; sourceTree = "<group>"; };
+		CEAD8651192DDFEF00567461 /* redbuttond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redbuttond.jpg; sourceTree = "<group>"; };
+		CEAD8658192DE43F00567461 /* welcom-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "welcom-1.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4AC9561920B1FE0030E13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE359F6019249E0C0025E125 /* MessageUI.framework in Frameworks */,
+				CE7A10CC192C720A006024EC /* CoreLocation.framework in Frameworks */,
+				CE7A10CA192C7204006024EC /* MapKit.framework in Frameworks */,
+				CE7A10C8192C71F8006024EC /* libz.dylib in Frameworks */,
+				CE4AC95F1920B1FE0030E13D /* CoreGraphics.framework in Frameworks */,
+				CE4AC9611920B1FE0030E13D /* UIKit.framework in Frameworks */,
+				CE4AC95D1920B1FE0030E13D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4AC97A1920B1FE0030E13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4AC97F1920B1FE0030E13D /* XCTest.framework in Frameworks */,
+				CE4AC9811920B1FF0030E13D /* UIKit.framework in Frameworks */,
+				CE4AC9801920B1FE0030E13D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE359F4C192494690025E125 /* htmlFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = htmlFile;
+			sourceTree = "<group>";
+		};
+		CE4AC9501920B1FE0030E13D = {
+			isa = PBXGroup;
+			children = (
+				CE4AC9621920B1FE0030E13D /* OpenHouse */,
+				CE4AC9841920B1FF0030E13D /* OpenHouseTests */,
+				CE4AC95B1920B1FE0030E13D /* Frameworks */,
+				CE4AC95A1920B1FE0030E13D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4AC95A1920B1FE0030E13D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4AC9591920B1FE0030E13D /* OpenHouse.app */,
+				CE4AC97D1920B1FE0030E13D /* OpenHouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4AC95B1920B1FE0030E13D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A10CB192C720A006024EC /* CoreLocation.framework */,
+				CE7A10C9192C7204006024EC /* MapKit.framework */,
+				CE7A10C7192C71F8006024EC /* libz.dylib */,
+				CE359F5F19249E0C0025E125 /* MessageUI.framework */,
+				CE4AC95C1920B1FE0030E13D /* Foundation.framework */,
+				CE4AC95E1920B1FE0030E13D /* CoreGraphics.framework */,
+				CE4AC9601920B1FE0030E13D /* UIKit.framework */,
+				CE4AC97E1920B1FE0030E13D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE4AC9621920B1FE0030E13D /* OpenHouse */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1F4601938432D00FB02D5 /* BuildingDetailViewController.h */,
+				CEA1F4611938432D00FB02D5 /* BuildingDetailViewController.m */,
+				198FFB3719331B7E00A91E89 /* BuildingWebsiteViewController.h */,
+				198FFB3819331B7E00A91E89 /* BuildingWebsiteViewController.m */,
+				CE7A1083192C71AD006024EC /* Building.h */,
+				198FFB2F193304FC00A91E89 /* BuildingAnnotationMapViewController.h */,
+				198FFB30193304FC00A91E89 /* BuildingAnnotationMapViewController.m */,
+				CE7A1084192C71AD006024EC /* Building.m */,
+				CE7A1085192C71AD006024EC /* BuildingCell.h */,
+				CE7A1086192C71AD006024EC /* BuildingCell.m */,
+				CE7A1089192C71AD006024EC /* BuildingListViewControler.h */,
+				CE7A108A192C71AD006024EC /* BuildingListViewControler.m */,
+				CE7A108B192C71AD006024EC /* Buildings.h */,
+				CE7A108C192C71AD006024EC /* Buildings.m */,
+				CEA1F4631938433700FB02D5 /* MapViewController.h */,
+				CEA1F4641938433700FB02D5 /* MapViewController.m */,
+				CE7A108D192C71AD006024EC /* FindPathNavigationViewController.h */,
+				CE7A10A6192C71AD006024EC /* TBXML.h */,
+				CE7A10A7192C71AD006024EC /* TBXML.m */,
+				CE4AC96B1920B1FE0030E13D /* AppDelegate.h */,
+				CE4AC96C1920B1FE0030E13D /* AppDelegate.m */,
+				CE4AC96E1920B1FE0030E13D /* Main_iPhone.storyboard */,
+				CE4AC9741920B1FE0030E13D /* ViewController.h */,
+				CE4AC9751920B1FE0030E13D /* ViewController.m */,
+				CE7237CA19231857004055C2 /* FViewController.h */,
+				CE7237CB19231857004055C2 /* FViewController.m */,
+				CE7237CD192318C7004055C2 /* CViewController.h */,
+				CE7237CE192318C7004055C2 /* CViewController.m */,
+				CE4AC9771920B1FE0030E13D /* Images.xcassets */,
+				CE4AC9631920B1FE0030E13D /* Supporting Files */,
+			);
+			path = OpenHouse;
+			sourceTree = "<group>";
+		};
+		CE4AC9631920B1FE0030E13D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A10A8192C71AD006024EC /* testBuildingInformation.xml */,
+				CE359F4D192494690025E125 /* Mission.html */,
+				CE359F4E192494690025E125 /* Overview.html */,
+				CE359F4F192494690025E125 /* Program.html */,
+				CE359F50192494690025E125 /* Volunteers.html */,
+				CEAD8650192DDFEF00567461 /* redbutton.jpg */,
+				CEAD8651192DDFEF00567461 /* redbuttond.jpg */,
+				CEAD8658192DE43F00567461 /* welcom-1.jpg */,
+				CEAD8648192DDC5800567461 /* button-1.jpg */,
+				CEAD8649192DDC5800567461 /* buildbutton.jpg */,
+				CEAD864A192DDC5800567461 /* button3.jpg */,
+				CEAD864B192DDC5800567461 /* button2.jpg */,
+				CE7A108E192C71AD006024EC /* img */,
+				CE359F55192498B90025E125 /* images-3.jpg */,
+				CE359F56192498B90025E125 /* images.jpg */,
+				CE359F57192498B90025E125 /* imgres.jpg */,
+				CE359F58192498B90025E125 /* images-1.jpg */,
+				CE359F59192498B90025E125 /* images-2.jpg */,
+				CE359F4C192494690025E125 /* htmlFile */,
+				CE359F3C192475D50025E125 /* Button-Normal.png */,
+				CE7237D819233A9F004055C2 /* OHGbanner5.jpg */,
+				CE7237871923097D004055C2 /* assetForProject */,
+				CE4AC9641920B1FE0030E13D /* OpenHouse-Info.plist */,
+				CE4AC9651920B1FE0030E13D /* InfoPlist.strings */,
+				CE4AC9681920B1FE0030E13D /* main.m */,
+				CE4AC96A1920B1FE0030E13D /* OpenHouse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE4AC9841920B1FF0030E13D /* OpenHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4AC98A1920B1FF0030E13D /* OpenHouseTests.m */,
+				CE4AC9851920B1FF0030E13D /* Supporting Files */,
+			);
+			path = OpenHouseTests;
+			sourceTree = "<group>";
+		};
+		CE4AC9851920B1FF0030E13D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4AC9861920B1FF0030E13D /* OpenHouseTests-Info.plist */,
+				CE4AC9871920B1FF0030E13D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE7237871923097D004055C2 /* assetForProject */ = {
+			isa = PBXGroup;
+			children = (
+				CE7237D019233193004055C2 /* logo5deakin.png */,
+				CE7237881923097D004055C2 /* bs1.png */,
+				CE7237891923097D004055C2 /* bs10.png */,
+				CE72378A1923097D004055C2 /* bs2.png */,
+				CE72378B1923097D004055C2 /* bs3.png */,
+				CE72378C1923097D004055C2 /* bs4.png */,
+				CE72378D1923097D004055C2 /* bs5.png */,
+				CE72378E1923097D004055C2 /* bs6.png */,
+				CE72378F1923097D004055C2 /* bs7.png */,
+				CE7237901923097D004055C2 /* bs8.png */,
+				CE7237911923097D004055C2 /* bs9.png */,
+				CE7237921923097D004055C2 /* building1.jpg */,
+				CE7237931923097D004055C2 /* building10.jpg */,
+				CE7237941923097D004055C2 /* building2.jpg */,
+				CE7237951923097D004055C2 /* building3.jpg */,
+				CE7237961923097D004055C2 /* building4.jpg */,
+				CE7237981923097D004055C2 /* building6.jpg */,
+				CE7237971923097D004055C2 /* building5.jpg */,
+				CE7237991923097D004055C2 /* building7.jpg */,
+				CE72379A1923097D004055C2 /* building8.jpg */,
+				CE72379B1923097D004055C2 /* building9.jpg */,
+				CE72379C1923097D004055C2 /* facebook.png */,
+				CE72379D1923097D004055C2 /* instagram.png */,
+				CE72379E1923097D004055C2 /* landspace.jpg */,
+				CE72379F1923097D004055C2 /* mail.png */,
+				CE7237A01923097D004055C2 /* openhousegeelonglogo.jpg */,
+				CE7237A11923097D004055C2 /* pinterest.png */,
+				CE7237A21923097D004055C2 /* twitter.png */,
+			);
+			path = assetForProject;
+			sourceTree = "<group>";
+		};
+		CE7A108E192C71AD006024EC /* img */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A10D0192C7633006024EC /* Peace Memorial_small.png */,
+				CE7A108F192C71AD006024EC /* Barwon Water.jpg */,
+				CE7A1090192C71AD006024EC /* Barwon Water_small.png */,
+				CE7A1091192C71AD006024EC /* City of Greater Geelong Offices.jpg */,
+				CE7A1092192C71AD006024EC /* City of Greater Geelong Offices_small.png */,
+				CE7A1093192C71AD006024EC /* Deakin University.jpg */,
+				CE7A1094192C71AD006024EC /* Deakin University_small.png */,
+				CE7A1095192C71AD006024EC /* Geelong City Hall.jpg */,
+				CE7A1096192C71AD006024EC /* Geelong City Hall_small.png */,
+				CE7A1097192C71AD006024EC /* Geelong Maritime Museum.jpg */,
+				CE7A1098192C71AD006024EC /* Geelong Maritime Museum_small.png */,
+				CE7A1099192C71AD006024EC /* National Wool Museum.jpg */,
+				CE7A109A192C71AD006024EC /* National Wool Museum_small.png */,
+				CE7A109B192C71AD006024EC /* Osborne House.jpg */,
+				CE7A109C192C71AD006024EC /* Osborne House_small.png */,
+				CE7A109D192C71AD006024EC /* Peace Memorial.jpg */,
+				CE7A109E192C71AD006024EC /* The Geelong Magistrates Courts.jpg */,
+				CE7A109F192C71AD006024EC /* The Geelong Magistrates Courts_small.png */,
+				CE7A10A0192C71AD006024EC /* The Gordon.jpg */,
+				CE7A10A1192C71AD006024EC /* The Gordon_small.png */,
+				CE7A10A2192C71AD006024EC /* Transport Accident Commission (TAC).jpg */,
+				CE7A10A3192C71AD006024EC /* Transport Accident Commission (TAC)_small.png */,
+				CE7A10A4192C71AD006024EC /* Vietnam Veterans Association.jpg */,
+				CE7A10A5192C71AD006024EC /* Vietnam Veterans Association_small.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4AC9581920B1FE0030E13D /* OpenHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4AC98E1920B1FF0030E13D /* Build configuration list for PBXNativeTarget "OpenHouse" */;
+			buildPhases = (
+				CE4AC9551920B1FE0030E13D /* Sources */,
+				CE4AC9561920B1FE0030E13D /* Frameworks */,
+				CE4AC9571920B1FE0030E13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenHouse;
+			productName = OpenHouse;
+			productReference = CE4AC9591920B1FE0030E13D /* OpenHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE4AC97C1920B1FE0030E13D /* OpenHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4AC9911920B1FF0030E13D /* Build configuration list for PBXNativeTarget "OpenHouseTests" */;
+			buildPhases = (
+				CE4AC9791920B1FE0030E13D /* Sources */,
+				CE4AC97A1920B1FE0030E13D /* Frameworks */,
+				CE4AC97B1920B1FE0030E13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4AC9831920B1FF0030E13D /* PBXTargetDependency */,
+			);
+			name = OpenHouseTests;
+			productName = OpenHouseTests;
+			productReference = CE4AC97D1920B1FE0030E13D /* OpenHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4AC9511920B1FE0030E13D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Deakin;
+				TargetAttributes = {
+					CE4AC9581920B1FE0030E13D = {
+						DevelopmentTeam = 24SM6522LU;
+					};
+					CE4AC97C1920B1FE0030E13D = {
+						TestTargetID = CE4AC9581920B1FE0030E13D;
+					};
+				};
+			};
+			buildConfigurationList = CE4AC9541920B1FE0030E13D /* Build configuration list for PBXProject "OpenHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE4AC9501920B1FE0030E13D;
+			productRefGroup = CE4AC95A1920B1FE0030E13D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4AC9581920B1FE0030E13D /* OpenHouse */,
+				CE4AC97C1920B1FE0030E13D /* OpenHouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4AC9571920B1FE0030E13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7237BB1923097D004055C2 /* openhousegeelonglogo.jpg in Resources */,
+				CE7237A91923097D004055C2 /* bs6.png in Resources */,
+				CE7237B01923097D004055C2 /* building3.jpg in Resources */,
+				CE7237AF1923097D004055C2 /* building2.jpg in Resources */,
+				CE7A10B3192C71AE006024EC /* Deakin University_small.png in Resources */,
+				CE7A10B1192C71AE006024EC /* City of Greater Geelong Offices_small.png in Resources */,
+				CE7A10B8192C71AE006024EC /* National Wool Museum.jpg in Resources */,
+				CE7237BC1923097D004055C2 /* pinterest.png in Resources */,
+				CE7237B21923097D004055C2 /* building5.jpg in Resources */,
+				CE7A10C4192C71AE006024EC /* Vietnam Veterans Association_small.png in Resources */,
+				CE7237D919233A9F004055C2 /* OHGbanner5.jpg in Resources */,
+				CEAD8652192DDFEF00567461 /* redbutton.jpg in Resources */,
+				CE7237AD1923097D004055C2 /* building1.jpg in Resources */,
+				CE7237A31923097D004055C2 /* bs1.png in Resources */,
+				CE7A10B4192C71AE006024EC /* Geelong City Hall.jpg in Resources */,
+				CEAD8653192DDFEF00567461 /* redbuttond.jpg in Resources */,
+				CE7237B81923097D004055C2 /* instagram.png in Resources */,
+				CE4AC9781920B1FE0030E13D /* Images.xcassets in Resources */,
+				CE7A10C6192C71AE006024EC /* testBuildingInformation.xml in Resources */,
+				CE7A10BF192C71AE006024EC /* The Gordon.jpg in Resources */,
+				CEAD8659192DE43F00567461 /* welcom-1.jpg in Resources */,
+				CE7A10C3192C71AE006024EC /* Vietnam Veterans Association.jpg in Resources */,
+				CE7A10B6192C71AE006024EC /* Geelong Maritime Museum.jpg in Resources */,
+				CE7A10B7192C71AE006024EC /* Geelong Maritime Museum_small.png in Resources */,
+				CE359F51192494690025E125 /* Mission.html in Resources */,
+				CE7237B31923097D004055C2 /* building6.jpg in Resources */,
+				CE359F52192494690025E125 /* Overview.html in Resources */,
+				CE359F3D192475D50025E125 /* Button-Normal.png in Resources */,
+				CE7237D119233193004055C2 /* logo5deakin.png in Resources */,
+				CE359F5C192498B90025E125 /* imgres.jpg in Resources */,
+				CE7A10AF192C71AE006024EC /* Barwon Water_small.png in Resources */,
+				CE7237B11923097D004055C2 /* building4.jpg in Resources */,
+				CE359F54192494690025E125 /* Volunteers.html in Resources */,
+				CE7A10BA192C71AE006024EC /* Osborne House.jpg in Resources */,
+				CE7237B91923097D004055C2 /* landspace.jpg in Resources */,
+				CE7A10C0192C71AE006024EC /* The Gordon_small.png in Resources */,
+				CE7237BD1923097D004055C2 /* twitter.png in Resources */,
+				CE7237B41923097D004055C2 /* building7.jpg in Resources */,
+				CE7237A61923097D004055C2 /* bs3.png in Resources */,
+				CE7237B51923097D004055C2 /* building8.jpg in Resources */,
+				CE7237BA1923097D004055C2 /* mail.png in Resources */,
+				CE7237A71923097D004055C2 /* bs4.png in Resources */,
+				CE359F5E192498B90025E125 /* images-2.jpg in Resources */,
+				CE359F5A192498B90025E125 /* images-3.jpg in Resources */,
+				CE7A10C2192C71AE006024EC /* Transport Accident Commission (TAC)_small.png in Resources */,
+				CE7A10C1192C71AE006024EC /* Transport Accident Commission (TAC).jpg in Resources */,
+				CEAD864F192DDC5800567461 /* button2.jpg in Resources */,
+				CE359F5D192498B90025E125 /* images-1.jpg in Resources */,
+				CE7237AB1923097D004055C2 /* bs8.png in Resources */,
+				CE7A10BE192C71AE006024EC /* The Geelong Magistrates Courts_small.png in Resources */,
+				CE7A10AE192C71AE006024EC /* Barwon Water.jpg in Resources */,
+				CE7237AC1923097D004055C2 /* bs9.png in Resources */,
+				CE4AC9701920B1FE0030E13D /* Main_iPhone.storyboard in Resources */,
+				CE7A10B0192C71AE006024EC /* City of Greater Geelong Offices.jpg in Resources */,
+				CE7237AA1923097D004055C2 /* bs7.png in Resources */,
+				CEAD864E192DDC5800567461 /* button3.jpg in Resources */,
+				CE7A10B9192C71AE006024EC /* National Wool Museum_small.png in Resources */,
+				CE7A10BC192C71AE006024EC /* Peace Memorial.jpg in Resources */,
+				CE7237B71923097D004055C2 /* facebook.png in Resources */,
+				CE4AC9671920B1FE0030E13D /* InfoPlist.strings in Resources */,
+				CE359F5B192498B90025E125 /* images.jpg in Resources */,
+				CE7237A81923097D004055C2 /* bs5.png in Resources */,
+				CE7A10BD192C71AE006024EC /* The Geelong Magistrates Courts.jpg in Resources */,
+				CE7237B61923097D004055C2 /* building9.jpg in Resources */,
+				CE7237AE1923097D004055C2 /* building10.jpg in Resources */,
+				CEAD864D192DDC5800567461 /* buildbutton.jpg in Resources */,
+				CE7A10B5192C71AE006024EC /* Geelong City Hall_small.png in Resources */,
+				CE7A10B2192C71AE006024EC /* Deakin University.jpg in Resources */,
+				CE7A10D1192C7633006024EC /* Peace Memorial_small.png in Resources */,
+				CE7237A41923097D004055C2 /* bs10.png in Resources */,
+				CE7237A51923097D004055C2 /* bs2.png in Resources */,
+				CEAD864C192DDC5800567461 /* button-1.jpg in Resources */,
+				CE7A10BB192C71AE006024EC /* Osborne House_small.png in Resources */,
+				CE359F53192494690025E125 /* Program.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4AC97B1920B1FE0030E13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4AC9891920B1FF0030E13D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4AC9551920B1FE0030E13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7A10C5192C71AE006024EC /* TBXML.m in Sources */,
+				CE7237CF192318C7004055C2 /* CViewController.m in Sources */,
+				CE7A10AD192C71AE006024EC /* Buildings.m in Sources */,
+				198FFB3A19331B7E00A91E89 /* BuildingWebsiteViewController.m in Sources */,
+				CE7A10AC192C71AE006024EC /* BuildingListViewControler.m in Sources */,
+				CE4AC9761920B1FE0030E13D /* ViewController.m in Sources */,
+				CE7A10AA192C71AE006024EC /* BuildingCell.m in Sources */,
+				CE7237CC19231857004055C2 /* FViewController.m in Sources */,
+				CEA1F4621938432D00FB02D5 /* BuildingDetailViewController.m in Sources */,
+				CE4AC96D1920B1FE0030E13D /* AppDelegate.m in Sources */,
+				CE4AC9691920B1FE0030E13D /* main.m in Sources */,
+				198FFB31193304FC00A91E89 /* BuildingAnnotationMapViewController.m in Sources */,
+				CE7A10A9192C71AE006024EC /* Building.m in Sources */,
+				CEA1F4651938433700FB02D5 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4AC9791920B1FE0030E13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4AC98B1920B1FF0030E13D /* OpenHouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE4AC9831920B1FF0030E13D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4AC9581920B1FE0030E13D /* OpenHouse */;
+			targetProxy = CE4AC9821920B1FF0030E13D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE4AC9651920B1FE0030E13D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4AC9661920B1FE0030E13D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE4AC96E1920B1FE0030E13D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4AC96F1920B1FE0030E13D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CE4AC9871920B1FF0030E13D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4AC9881920B1FF0030E13D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE4AC98C1920B1FF0030E13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE4AC98D1920B1FF0030E13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE4AC98F1920B1FF0030E13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenHouse/OpenHouse-Prefix.pch";
+				INFOPLIST_FILE = "OpenHouse/OpenHouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE4AC9901920B1FF0030E13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenHouse/OpenHouse-Prefix.pch";
+				INFOPLIST_FILE = "OpenHouse/OpenHouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE4AC9921920B1FF0030E13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenHouse.app/OpenHouse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenHouse/OpenHouse-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OpenHouseTests/OpenHouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE4AC9931920B1FF0030E13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenHouse.app/OpenHouse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenHouse/OpenHouse-Prefix.pch";
+				INFOPLIST_FILE = "OpenHouseTests/OpenHouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4AC9541920B1FE0030E13D /* Build configuration list for PBXProject "OpenHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4AC98C1920B1FF0030E13D /* Debug */,
+				CE4AC98D1920B1FF0030E13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4AC98E1920B1FF0030E13D /* Build configuration list for PBXNativeTarget "OpenHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4AC98F1920B1FF0030E13D /* Debug */,
+				CE4AC9901920B1FF0030E13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4AC9911920B1FF0030E13D /* Build configuration list for PBXNativeTarget "OpenHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4AC9921920B1FF0030E13D /* Debug */,
+				CE4AC9931920B1FF0030E13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE4AC9511920B1FE0030E13D /* Project object */;
+}

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildingList>
+    <building>
+        <name>Peace Memorial</name>
+        <address>Johnstone Park, 24 - 28 Gheringhap street</address>
+        <openingHours>10am - 4pm</openingHours>
+        <openArea>the inside of the memorial</openArea>
+        <frequencyOfTours>self guided</frequencyOfTours>
+        <buildingType>Edwardian Baroque</buildingType>
+        <builtYear>1975</builtYear>
+        <architect>Laird and Buchan with Percy Everett</architect>
+        <website>N/A</website>
+        <description>You may be familiar with the Peace Memorial but have never had the chance to go inside. Opening will reveal the semi-dome roof above plaques with radial ribs converging towards an Australian crest and diamond shaped glass panels.
+    The World War 1 memorial is a classical revival style building with large Roman columns and decorative cornices.
+    Self Guided Tours, with National Servicemen volunteers available to answer questions.</description>
+        <buildingLocation latitude="-38.145713" longitude="144.356617"></buildingLocation>
+    </building>
+    
+    <building>
+        <name>The Gordon</name>
+        <address>2 Fenwick Street</address>
+        <openingHours>10am - 4pm</openingHours>
+        <openArea>Building A South, the Davidson Restaurant, the courtyard to Lascelles Memorial Lab and TE Bostock Memorial</openArea>
+        <frequencyOfTours>every 20 mins</frequencyOfTours>
+        <buildingType>combination of various styles, including red brick and stucco, rendered classical revival and modernistic</buildingType>
+        <builtYear>1887 - 1961</builtYear>
+        <architect>Alexander Davidson, Lard and Buchan, Percy Everst and EM Blake</architect>
+        <website>www.thegordon.edu.au</website>
+        <description>There are many architectural styles in The Gordon, including the 1887 Hall by S. Davidson through to the redevelopments in the 1960s of the chemistry lab for you to explore.
+    Guided tours will leave every 20 mins from Building A South through the Davidson Restaurant, the courtyard to Lascelles Memorial Lab and TE Bostock Memorial.</description>
+        <buildingLocation latitude="-38.145846" longitude="144.355250"> </buildingLocation>
+    </building>
+    
+    <building>
+        <name>Transport Accident Commission (TAC)</name>
+        <address>60 Brougham Street</address>
+        <openingHours>10am - 4pm</openingHours>
+        <openArea>foyer, historic boardwalk, level 5 (includes balcony/view)and auditorium</openArea>
+        <frequencyOfTours>every 20 mins</frequencyOfTours>
+        <buildingType>urban / contemporary</buildingType>
+        <builtYear>2009</builtYear>
+        <architect>McGauran Giannini Soon Pty Ltd and ML Design</architect>
+        <website>www.tac.vic.gov.au</website>
+        <description>TAC headquarters is Geelong City's first office development to achieve a five star NABERS rating. The TAC building is an innovative example of functionality and sustainability, as it acknowledges the historical significance of the 1872 Denny Lascelles /'Bow Truss/' wool store in its design.
+    Guided tours will run every 20 mins explaining the features of the building.</description>
+        <buildingLocation latitude="-38.145364" longitude="144.362122"></buildingLocation>
+    </building>
+    
+    <building>
+        <name>Geelong City Hall</name>
+        <address>30 Gheringhap Street</address>
+        <openingHours>10am - 4pm</openingHours>
+        <openArea>council chambers</openArea>
+        <frequencyOfTours>self guided</frequencyOfTours>
+        <buildingType>bluestone building with a freestone facade</buildingType>
+        <builtYear>1855, 1917</builtYear>
+        <architect>Joseph Reed</architect>
+        <website>www.geelongaustralia.com.au</website>
+        <description>The Geelong Town Hall, later to be known as the City Hall, designed by the prominent Victorian architect Joseph Reed in 1855, was finally completed to the to the original design in 1917.
+    City Hall is a bluestone building with a freestone facade in the Classic Greek Revival style.
+    Self guided tours of the Council Chambers are available all day.</description>
+        <buildingLocation latitude="-38.146940" longitude="144.357158"></buildingLocation>
+    </building>
+    
+    <building>
+        <name>Geelong Maritime Museum</name>
+        <address>Osborne Park - Swinburne St, North Geelong</address>
+        <openingHours>10am - 4pm</openingHours>
+        <openArea>Maritime Museum</openArea>
+        <frequencyOfTours>open access</frequencyOfTours>
+        <buildingType>Victorian Italianate style</buildingType>
+        <builtYear>1857/58, 1910</builtYear>
+        <architect>Webb and Taylor</architect>
+        <website>www.osbornehousegeelong.org.au</website>
+        <description>Overlooking Corio Bay, the Geelong Maritime Museum is located in the stable building of Osborne House built in 1857. The museum has displays looking at the colourful history of Osborne House which was the site of the first Australian Naval College in 1913 and the first submarine base in 1919.
+    Volunteers will be on hand to answer questions as you guide yourself through the museum.</description>
+        <buildingLocation latitude="-38.119986" longitude="144.357135"></buildingLocation>
+    </building>
+    
+    <building>
+        <name>National Wool Museum</name>
+        <address>cnr. Moorabool / Brougham Street</address>
+        <openingHours>10am - 4pm</openingHours>
+        <openArea>the main museum is open (free of charge), a special exhibit is also open (half price entry)</openArea>
+        <frequencyOfTours>self guided</frequencyOfTours>
+        <buildingType>bluestone wool store</buildingType>
+        <builtYear>1872</builtYear>
+        <architect>Jacob Pitman</architect>
+        <website>www.geelongaustralia.com.au</website>
+        <description>Australia's largest comprehensive museum of wool. This building represents the significance of Geelong as the integral site of wool production for not only Victoria, but England and Europe as well.
+    Take a self guided tour including a look at the laneways, informed guides will be available. Open House Geelong participants are also offered half price entry into The Permian Monsters: Life Before the Dinosaurs exhibit.</description>
+        <buildingLocation latitude="-38.145290" longitude="144.361443"></buildingLocation>
+    </building>
+    
+    <building>
+        <name>City of Greater Geelong Offices</name>
+        <address>100 Brougham Street</address>
+        <openingHours>10am - 4pm</openingHours>
+        <openArea>5th floor viewing area</openArea>
+        <frequencyOfTours>every 30 mins</frequencyOfTours>
+        <buildingType>modern glass and concrete building</buildingType>
+        <builtYear>1989</builtYear>
+        <architect>Farrow Corporation</architect>
+        <website>www.geelongaustralia.com.au</website>
+        <description>Built by the Farrow Corporation as Head Office for the Pyramid Building Society and occupied by the Australian Tax Office, and recently taken over by the City of Greater Geelong.
+    Take a 180 degree look at Geelong, including a great panoramic view of Corio Bay over to the You Yangs and Melbourne from the 5th floor of the City of Greater Geelong offices.
+    Tours will run every 30 mins for groups of 15 people.</description>
+        <buildingLocation latitude="-38.146378" longitude="144.365483"></buildingLocation>
+    </building>
+    
+    <building>
+        <name>Deakin University</name>
+        <address>100 Brougham Street</address>
+        <openingHours>10am - 4pm</openingHours>
+        <openArea>level 1 (Vision 2 gallery, Alfred Deakin Exhibition etc), level 4 Council Chambers and level 6 viewpoint</openArea>
+        <frequencyOfTours>self guided</frequencyOfTours>
+        <buildingType>former Dalgety and Co woolstore</buildingType>
+        <builtYear>complex construction between 1891 - 2012</builtYear>
+        <architect>Laird and Barlow, Buchan Laird and Buchan; McGlashan Everist; and Woods Bagot</architect>
+        <website>www.deakin.edu.au</website>
+        <description>Originally built as woolstores in 1893, the buildings have been extensively renovated to create a modern and impressive campus centre.
+    Please note:There is construction currently underway at Deakin. Apologies for any inconvenience caused.</description>
+        <buildingLocation latitude="-38.143961" longitude="144.360319"></buildingLocation>
+    </building>
+    
+    <building>
+        <name>The Geelong Magistrates Courts</name>
+        <address>Railway Terrace</address>
+        <openingHours>10 - 1pm (please note closing time)</openingHours>
+        <openArea>general public areas and two main court areas</openArea>
+        <frequencyOfTours>every 30 mins</frequencyOfTours>
+        <buildingType>contemporary style</buildingType>
+        <builtYear>opened in 1992</builtYear>
+        <architect>Millar Sainsbery Mulcair (subsequently Architectus) and Fish Payne Pattenden Viney</architect>
+        <website>www.geelongaustralia.com.au</website>
+        <description>Victoria's largest multi-jurisdictional complex was built in 1990 and the architects in association were Millar Sainsbery Mulcair (subsequently Architectus) and Fish Payne Pattenden Viney.
+    Architectural tours will be run in the court complex through the foyer, courts five and one, with a peek into the jury pool room.
+    NOTE: Only open until 1pm.</description>
+        <buildingLocation latitude="-38.145286" longitude="144.356181"></buildingLocation>
+    </building>
+    
+    <building>
+        <name>Barwon Water</name>
+        <address>61-67 Ryrie Street</address>
+        <openingHours>10am - 4pm</openingHours>
+        <openArea>board room and mural</openArea>
+        <frequencyOfTours>every 30 mins</frequencyOfTours>
+        <buildingType>modern style</buildingType>
+        <builtYear>1964, with major upgrade in 1977</builtYear>
+        <architect>G.E. Drinnan and Associates</architect>
+        <website>N/A</website>
+        <description>The major office complex for Barwon Water designed by G.E. Drinnan and Associates in 1964 (with major upgrade in 1977), accommodates 180 staff over 6 levels. The 1977 mural by Robert Ingpen, in the Board Room on level 1, is a tempera painting on five panels, each of which depicts some aspect of water supply; built as a whole this describes the management of the water cycle in the Geelong Regions.
+    Communications staff from Barwon Water will share the story of the Mural on guided tours that leave every 30 mins.</description>
+        <buildingLocation latitude="-38.148009" longitude="144.355863"></buildingLocation>
+
+    </building>
+    
+    <building>
+        <name>Osborne House</name>
+        <address>Osborne House - Swinburne St, North Geelong</address>
+        <openingHours>10 - 1pm (please note closing time)</openingHours>
+        <openArea>general public areas and two main court areas</openArea>
+        <frequencyOfTours>every 30 mins</frequencyOfTours>
+        <buildingType>contemporary style</buildingType>
+        <builtYear>opened in 1992</builtYear>
+        <architect>Millar Sainsbery Mulcair (subsequently Architectus) and Fish Payne Pattenden Viney</architect>
+        <website>www.geelongaustralia.com.au</website>
+        <description>Victoria's largest multi-jurisdictional complex was built in 1990 and the architects in association were Millar Sainsbery Mulcair (subsequently Architectus) and Fish Payne Pattenden Viney.
+            Architectural tours will be run in the court complex through the foyer, courts five and one, with a peek into the jury pool room.</description>
+        <buildingLocation latitude="-38.119986" longitude="144.357135"></buildingLocation>
+    </building>
+    
+    <building>
+        <name>Vietnam Veterans Association</name>
+        <address>51 Osborne Avenue North Geelong</address>
+        <openingHours>10am - 4pm</openingHours>
+        <openArea>Vietnam Veterans Association</openArea>
+        <frequencyOfTours>self guided</frequencyOfTours>
+        <buildingType>Victorian Italianate style</buildingType>
+        <builtYear>1858</builtYear>
+        <architect>Webb and Taylor</architect>
+        <website>www.osbornehousegeelong.org.au</website>
+        <description>Built 1858 for the squatter Robert Muirhead, the old Council rooms, the Branscome Room, are now a meeting place for Veterans with a collection of Memorabilia from the Vietnam War.
+    Veterans will be on hand to discuss the collection as you guide yourself through the homestead.</description>
+        <buildingLocation latitude="-38.117220" longitude="144.343022"></buildingLocation>
+    </building>
+    
+</buildingList>
